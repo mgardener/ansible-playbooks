@@ -1,0 +1,5 @@
+- hosts: targetserver
+  tasks:
+    - copy:
+        src: /vagrant/
+        dest: /home/ubuntu
