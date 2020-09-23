@@ -1,4 +1,4 @@
-- hosts: targetserver
+- hosts: all
   tasks:
     - copy:
         src: /vagrant/
